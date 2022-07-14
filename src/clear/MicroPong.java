@@ -114,11 +114,11 @@ class Core extends JComponent {
 					}
 					level += 1;
 					if (level > 300) {
-						// The bot enters beast mode.
 						speed_factor += 0.1f;
 						level = 0;
 					}
 					if (player_score == 4) {
+						// The bot enters beast mode.
 						bot_speed = 2;
 					}
 					if (bot_score == 5 || player_score == 5) {
